@@ -34,6 +34,7 @@
     "react-hooks/exhaustive-deps": "warn",
     "no-console": "off",
     "react/prop-types": 0,
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/*.test.js", "**/*.test.jsx", "**/setupTests.js"]}],
     "prettier/prettier": ["error"]
   },
   "globals": {
