@@ -1,3 +1,5 @@
 build/
 node_modules/
 src/serviceWorker.js
+cypress/plugins/**
+cypress/support/**
